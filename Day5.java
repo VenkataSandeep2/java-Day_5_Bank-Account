@@ -114,10 +114,11 @@ class Day6
                 case 5 -> 
 		{
                     running = false;
-                    System.out.println("👋 Exiting... Goodbye!");
+                    System.out.println(" Exiting.. Goodbye!");
                 }
-                default -> System.out.println("⚠ Invalid choice. Try again.");
+                default -> System.out.println(" Invalid choice. Try again.");
         }
         }
     	}
 }
+
